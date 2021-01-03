@@ -53,35 +53,57 @@
     background-image: url('../assets/facebook.svg');
     width: 2em;
     height: 2em;
+    margin: 0.7em;
+    animation: fadeFromTop 1s;
+    animation-fill-mode: both;
+    animation-delay: 3.5s;
 }
 
 #li-ico {
     background-image: url('../assets/linkedin.svg');
     width: 2em;
     height: 2em;
+    margin: 0.7em;
+    animation: fadeFromTop 1s;
+    animation-fill-mode: both;
+    animation-delay: 4s;
 }
 
 #ig-ico {
     background-image: url('../assets/instagram.svg');
-    width: 30em;
-
+    width: 2em;
+    height: 2em;
+    margin: 0.7em;
+    animation: fadeFromTop 1s;
+    animation-fill-mode: both;
+    animation-delay: 4.5s;
 }
 
 #tw-ico {
     background-image: url('../assets/twitter.svg');
     width: 2em;
     height: 2em;
+    margin: 0.7em;
+    animation: fadeFromTop 1s;
+    animation-fill-mode: both;
+    animation-delay: 5s;
 }
 
 #gh-ico {
     background-image: url('../assets/github.svg');
     width: 2em;
     height: 2em;
+    margin: 0.7em;
+    animation: fadeFromTop 1s;
+    animation-fill-mode: both;
+    animation-delay: 5.5s;
 }
+
 #icons {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 1.3em;
 }
 
 @keyframes fadeIn {
@@ -92,4 +114,15 @@
     to {
         opacity: 1;
     }
+}
+
+@keyframes fadeFromTop {
+	from {
+		opacity: 0;
+		transform: translate3d(0, -20%, 0);
+	}
+	to {
+		opacity: 1;
+		transform: translate3d(0, 0, 0);
+	}
 }
