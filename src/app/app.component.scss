@@ -25,11 +25,63 @@
     color: white;
     text-align: center;
     align-items: center;
-    animation: fadeIn 2s;
-    animation-delay: 1s;
-    animation-fill-mode: both;
     font-family: 'Electrolize', sans-serif;
+}
 
+#Coder {
+    animation: fadeIn 2s;
+    animation-fill-mode: both;
+    animation-delay: 1s;
+    display: inline;
+}
+
+#Student {
+    animation: fadeIn 2s;
+    animation-fill-mode: both;
+    animation-delay: 2s;
+    display: inline;
+}
+
+#Dreamer {
+    animation: fadeIn 2s;
+    animation-fill-mode: both;
+    animation-delay: 3s;
+    display: inline;
+}
+
+#fb-ico {
+    background-image: url('../assets/facebook.svg');
+    width: 2em;
+    height: 2em;
+}
+
+#li-ico {
+    background-image: url('../assets/linkedin.svg');
+    width: 2em;
+    height: 2em;
+}
+
+#ig-ico {
+    background-image: url('../assets/instagram.svg');
+    width: 30em;
+
+}
+
+#tw-ico {
+    background-image: url('../assets/twitter.svg');
+    width: 2em;
+    height: 2em;
+}
+
+#gh-ico {
+    background-image: url('../assets/github.svg');
+    width: 2em;
+    height: 2em;
+}
+#icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 @keyframes fadeIn {
