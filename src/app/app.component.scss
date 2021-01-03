@@ -9,7 +9,7 @@
 }
 
 #s3 {
-    background-image: url('../assets/shutterstock_644524363.jpg');
+    background-image: url('../assets/s3.svg');
     background-size: cover;
 }
 
@@ -105,6 +105,18 @@
     align-items: center;
     justify-content: center;
     margin-top: 1.3em;
+}
+
+#profile {
+    background-image: url('../assets/DSC_1795.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 400px;
+    height: 400px;
+    margin: auto;
+    animation: fadeIn 2s;
+    animation-delay: 6s;
+    animation-fill-mode: both;
 }
 
 @keyframes fadeIn {
