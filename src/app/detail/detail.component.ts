@@ -1,11 +1,11 @@
 import { Component, OnInit, HostListener } from '@angular/core';
 
 @Component({
-  selector: 'app-about',
-  templateUrl: './about.component.html',
-  styleUrls: ['./about.component.scss']
+  selector: 'app-detail',
+  templateUrl: './detail.component.html',
+  styleUrls: ['./detail.component.scss']
 })
-export class AboutComponent implements OnInit {
+export class DetailComponent implements OnInit {
 
   constructor() { }
 
@@ -17,13 +17,13 @@ export class AboutComponent implements OnInit {
 
   @HostListener("document:scroll")
   scrollDownFunction(){
-    if (document.body.scrollTop > 1550 || document.documentElement.scrollTop > 1550) {
+    if (document.body.scrollTop > 550 || document.documentElement.scrollTop > 550) {
       this.triggerin = true;
       this.triggerout = false;
-    }
-    else {
+    } else {
       this.triggerin = false;
       this.triggerout = true;
     }
   }
 }
+
