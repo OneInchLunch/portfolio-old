@@ -15,7 +15,9 @@ export class AppComponent {
     this.config = {
       anchors:[],
       menu: '#menu',
-      navigation: true,
+      navigation: false,
+      autoScrolling: false,
+      scrollOverflow: true,
 
       afterResize: () => {
         console.log("AfterResize");
