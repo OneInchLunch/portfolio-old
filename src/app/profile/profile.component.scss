@@ -96,8 +96,9 @@
     background-image: url('../../assets/DSC_1795.jpg');
     background-size: contain;
     background-repeat: no-repeat;
-    width: 400px;
-    height: 400px;
+    border-radius: 50%;
+    width: 25em;
+    height: 25em;
     margin: auto;
     animation: fadeIn 2s;
     animation-delay: 6s;
@@ -110,6 +111,16 @@
 }
 
 .fadeOut {
+    animation: fadeOut 1s;
+    animation-fill-mode: both;
+}
+
+.fadeIn2 {
+    animation: fadeIn 1s;
+    animation-fill-mode: both;
+}
+
+.fadeOut2 {
     animation: fadeOut 1s;
     animation-fill-mode: both;
 }
@@ -143,4 +154,18 @@
 		opacity: 1;
 		transform: translate3d(0, 0, 0);
 	}
+}
+
+@media (max-width: 420px) {
+    #profile {
+        width: 20em;
+        height: 20em;
+    }
+}
+
+@media (max-width: 320px) {
+    #profile {
+        width: 15em;
+        height: 15em;
+    }
 }

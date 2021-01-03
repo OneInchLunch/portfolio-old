@@ -18,14 +18,6 @@ export class AppComponent {
       navigation: false,
       autoScrolling: false,
       scrollOverflow: true,
-
-      afterResize: () => {
-        console.log("AfterResize");
-      },
-
-      afterLoad: (origin, destination, direction) => {
-        console.log(origin.index);
-      }
     };
   }
 
