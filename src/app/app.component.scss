@@ -1,0 +1,43 @@
+#s1 {
+    background-image: url('../assets/s1.svg');
+    background-size: cover;
+}
+
+#s2 {
+    background-image: url('../assets/random1.jpg');
+    background-size: cover;
+}
+
+#s3 {
+    background-image: url('../assets/shutterstock_644524363.jpg');
+    background-size: cover;
+}
+
+#name {
+    color: white;
+    text-align: center;
+    align-items: center;
+    animation: fadeIn 2s;
+    font-family: 'Electrolize', sans-serif;
+}
+
+#subtitle {
+    color: white;
+    text-align: center;
+    align-items: center;
+    animation: fadeIn 2s;
+    animation-delay: 1s;
+    animation-fill-mode: both;
+    font-family: 'Electrolize', sans-serif;
+
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
