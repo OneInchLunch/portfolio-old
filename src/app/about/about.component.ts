@@ -17,7 +17,7 @@ export class AboutComponent implements OnInit {
 
   @HostListener("document:scroll")
   scrollDownFunction(){
-    if (document.body.scrollTop > (document.body.clientHeight/1.9) || document.documentElement.scrollTop > (document.body.clientHeight/1.9)) {
+    if (document.body.scrollTop > 1550 || document.documentElement.scrollTop > 1550) {
       this.triggerin = true;
       this.triggerout = false;
     }

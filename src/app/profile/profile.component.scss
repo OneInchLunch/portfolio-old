@@ -106,12 +106,22 @@
 }
 
 .fadeIn {
-    animation: fadeIn 0.5s;
+    animation: fadeIn 1s;
     animation-fill-mode: both;
 }
 
 .fadeOut {
-    animation: fadeOut 0.5s;
+    animation: fadeOut 1s;
+    animation-fill-mode: both;
+}
+
+.fadeIn2 {
+    animation: fadeIn 1s;
+    animation-fill-mode: both;
+}
+
+.fadeOut2 {
+    animation: fadeOut 1s;
     animation-fill-mode: both;
 }
 

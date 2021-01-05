@@ -18,7 +18,6 @@ export class AppComponent {
       navigation: false,
       autoScrolling: false,
       scrollOverflow: true,
-      scrollBar: true,
     };
   }
 

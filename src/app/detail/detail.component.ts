@@ -17,7 +17,7 @@ export class DetailComponent implements OnInit {
 
   @HostListener("document:scroll")
   scrollDownFunction(){
-    if (document.body.scrollTop > (document.body.clientHeight/5) || document.documentElement.scrollTop > (document.body.clientHeight/5)) {
+    if (document.body.scrollTop > 550 || document.documentElement.scrollTop > 550) {
       this.triggerin = true;
       this.triggerout = false;
     } else {
