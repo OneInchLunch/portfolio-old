@@ -1,0 +1,193 @@
+.txt {
+  color: white;
+  font-family: "Electrolize", sans-serif;
+  opacity: 0;
+  text-align: center;
+  justify-content: center;
+}
+
+.fadein {
+  animation: fadeIn 0.5s;
+  animation-fill-mode: both;
+}
+
+.fadeout {
+  animation: fadeOut 0.5s;
+  animation-fill-mode: both;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#ang {
+  background-image: url("../../assets/tech/angular.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 3em;
+  height: 3em;
+  margin: 0.7em;
+}
+
+.ang-in {
+  animation: fadeIn 0.4s;
+  animation-fill-mode: both;
+  animation-delay: 0.4s;
+}
+
+#njs {
+  background-image: url("../../assets/tech/node-js.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 6em;
+  height: 6em;
+  margin: 0.7em;
+}
+
+.njs-in {
+  animation: fadeIn 0.4s;
+  animation-fill-mode: both;
+  animation-delay: 0.8s;
+}
+
+#exp {
+  background-image: url("../../assets/tech/express.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 6em;
+  height: 6em;
+  margin: 0.7em;
+}
+
+.exp-in {
+  animation: fadeIn 0.4s;
+  animation-fill-mode: both;
+  animation-delay: 1.2s;
+}
+
+#mdb {
+  background-image: url("../../assets/tech/mongodb.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 3.5em;
+  height: 3.5em;
+  margin: 0.7em;
+}
+
+.mdb-in {
+  animation: fadeIn 0.4s;
+  animation-fill-mode: both;
+  animation-delay: 1.6s;
+}
+
+#cpp {
+  background-image: url("../../assets/tech/c.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 3em;
+  height: 3em;
+  margin: 0.7em;
+}
+
+.cpp-in {
+  animation: fadeIn 0.4s;
+  animation-fill-mode: both;
+  animation-delay: 2s;
+}
+
+#pyth {
+  background-image: url("../../assets/tech/python.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 3em;
+  height: 3em;
+  margin: 0.7em;
+}
+
+.pyth-in {
+  animation: fadeIn 0.4s;
+  animation-fill-mode: both;
+  animation-delay: 2.4s;
+}
+
+#html {
+  background-image: url("../../assets/tech/html.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 3.5em;
+  height: 3.5em;
+  margin-top: 0.2em !important;
+  margin-right: 0 !important;
+  margin: 0.7em;
+}
+
+.html-in {
+  animation: fadeIn 0.4s;
+  animation-fill-mode: both;
+  animation-delay: 2.8s;
+}
+
+#css {
+  background-image: url("../../assets/tech/css.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 4em;
+  height: 4em;
+  margin-top: 0.2em !important;
+  margin-left: 0.5em !important;
+  margin: 0.7em;
+}
+
+#grey {
+  color: grey;
+}
+
+footer {
+    bottom: 2em;
+    position: absolute;
+}
+
+.css-in {
+  animation: fadeIn 0.4s;
+  animation-fill-mode: both;
+  animation-delay: 3.2s;
+}
+
+a:active {
+  color: white;
+  font-family: "Electrolize", sans-serif;
+  opacity: 0;
+  text-align: center;
+  justify-content: center;
+}
+
+a:link {
+    color: cyan;
+    font-family: "Electrolize", sans-serif;
+    opacity: 0;
+    text-align: center;
+    justify-content: center;
+  }
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+  }
+}

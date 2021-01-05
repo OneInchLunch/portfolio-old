@@ -1,0 +1,161 @@
+
+#name {
+    color: white;
+    text-align: center;
+    align-items: center;
+    animation: fadeIn 2s;
+    font-family: 'Electrolize', sans-serif;
+}
+
+#subtitle {
+    color: white;
+    text-align: center;
+    align-items: center;
+    font-family: 'Electrolize', sans-serif;
+}
+
+#Coder {
+    animation: fadeIn 2s;
+    animation-fill-mode: both;
+    animation-delay: 1s;
+    display: inline;
+}
+
+#Student {
+    animation: fadeIn 2s;
+    animation-fill-mode: both;
+    animation-delay: 2s;
+    display: inline;
+}
+
+#Dreamer {
+    animation: fadeIn 2s;
+    animation-fill-mode: both;
+    animation-delay: 3s;
+    display: inline;
+}
+
+#fb-ico {
+    background-image: url('../../assets/facebook.svg');
+    width: 2em;
+    height: 2em;
+    margin: 0.7em;
+    animation: fadeFromTop 1s;
+    animation-fill-mode: both;
+    animation-delay: 3.5s;
+}
+
+#li-ico {
+    background-image: url('../../assets/linkedin.svg');
+    width: 2em;
+    height: 2em;
+    margin: 0.7em;
+    animation: fadeFromTop 1s;
+    animation-fill-mode: both;
+    animation-delay: 4s;
+}
+
+#ig-ico {
+    background-image: url('../../assets/instagram.svg');
+    width: 2em;
+    height: 2em;
+    margin: 0.7em;
+    animation: fadeFromTop 1s;
+    animation-fill-mode: both;
+    animation-delay: 4.5s;
+}
+
+#tw-ico {
+    background-image: url('../../assets/twitter.svg');
+    width: 2em;
+    height: 2em;
+    margin: 0.7em;
+    animation: fadeFromTop 1s;
+    animation-fill-mode: both;
+    animation-delay: 5s;
+}
+
+#gh-ico {
+    background-image: url('../../assets/github.svg');
+    width: 2em;
+    height: 2em;
+    margin: 0.7em;
+    animation: fadeFromTop 1s;
+    animation-fill-mode: both;
+    animation-delay: 5.5s;
+}
+
+#icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1.3em;
+}
+
+#profile {
+    background-image: url('../../assets/DSC_1795.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    width: 25em;
+    height: 25em;
+    margin: auto;
+    animation: fadeIn 2s;
+    animation-delay: 6s;
+    animation-fill-mode: both;
+}
+
+.fadeIn {
+    animation: fadeIn 0.5s;
+    animation-fill-mode: both;
+}
+
+.fadeOut {
+    animation: fadeOut 0.5s;
+    animation-fill-mode: both;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeOut {
+    from {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 0;
+    }
+}
+
+@keyframes fadeFromTop {
+	from {
+		opacity: 0;
+		transform: translate3d(0, -20%, 0);
+	}
+	to {
+		opacity: 1;
+		transform: translate3d(0, 0, 0);
+	}
+}
+
+@media (max-width: 420px) {
+    #profile {
+        width: 20em;
+        height: 20em;
+    }
+}
+
+@media (max-width: 320px) {
+    #profile {
+        width: 15em;
+        height: 15em;
+    }
+}

@@ -1,0 +1,48 @@
+.txt {
+    color: white;
+    font-family: "Electrolize", sans-serif;
+    text-align: center;
+    justify-content: center;
+  }
+
+p {
+    font-size: 1.2em;
+    color: lightgrey;
+    padding: 0.3em;
+}
+
+h2 {
+  padding-top: 0.5em;
+}
+
+.fadein {
+    animation: fadeIn 0.5s;
+    animation-fill-mode: both;
+  }
+  
+.fadeout {
+    animation: fadeOut 0.5s;
+    animation-fill-mode: both;
+}
+  
+
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+  
+    to {
+      opacity: 1;
+    }
+  }
+  
+@keyframes fadeOut {
+    from {
+      opacity: 1;
+    }
+  
+    to {
+      opacity: 0;
+    }
+  }
+  
