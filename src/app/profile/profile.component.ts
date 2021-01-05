@@ -17,7 +17,7 @@ export class ProfileComponent implements OnInit {
 
   @HostListener("document:scroll")
   scrollDownFunction(){
-    if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
+    if (document.body.scrollTop > (document.body.clientHeight/6) || document.documentElement.scrollTop > (document.body.clientHeight/6)) {
       this.triggerin = true;
       this.triggerout = false;
     }

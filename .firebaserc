@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "amir-mrkonjic-e4fbd"
+  },
+  "targets": {
+    "amir-mrkonjic-e4fbd": {
+      "hosting": {
+        "portofolio": [
+          "amir-mrkonjic-e4fbd"
+        ]
+      }
+    }
+  }
+}
